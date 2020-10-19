@@ -1,0 +1,24 @@
+.juego{
+    width: 1280px;
+    height: 720px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.juego__contenedor {
+    width: 25%;
+    margin: 20px;
+}
+
+.juego__btn {
+    width:80px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.juego__imagen {
+    width:100%;
+    filter: grayscale(100%) brightness(120%);
+    
+}
